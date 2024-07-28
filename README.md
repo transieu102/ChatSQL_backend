@@ -1,6 +1,12 @@
 # Objective:
 This backend includes an API and a database for a chatbot application that allows users to upload data and query information from it.
 
+## Run API:
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app
+```
+
 ## Main Features Provided by the API:
 
 ### User:
